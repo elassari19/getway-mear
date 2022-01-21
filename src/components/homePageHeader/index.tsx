@@ -7,10 +7,10 @@ import { rootColor } from '../../theme'
 const index = () => {
   return (
     <Header>
-        <Brand width={28} height={28} />
-        <Text fontSize={22} color={rootColor[1]} >Home</Text>
-        <Text fontSize={22}>Page</Text>
-      </Header>
+      <Brand width={28} height={28} />
+      <Text fontSize={22} color={rootColor[1]} >Home</Text>
+      <Text fontSize={22}>Page</Text>
+    </Header>
   )
 }
 

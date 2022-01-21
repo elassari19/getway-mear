@@ -9,7 +9,7 @@ interface Props {
 
 const index: React.FC = ({children}) => {
   return (
-    <Box bg={black[2]} py={4} alignItems={'center'} justifyContent={'center'} >
+    <Box bg={black[2]} py={4} alignItems={'center'} justifyContent={'center'} maxHeight={50} >
       <HStack justifyContent={'center'}>
         {children}
       </HStack>
